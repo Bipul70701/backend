@@ -5,6 +5,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors());
+app.use(cors({origin:"https://frontend-i05i4ul7e-bipul70701s-projects.vercel.app/"}));
 app.use(express.json());
 
 
