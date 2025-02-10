@@ -4,8 +4,8 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const app = express();
-app.use(cors());
-app.use(cors({origin:"https://frontend-eight-chi-65.vercel.app/"}));
+// app.use(cors());
+app.use(cors({origin:"https://frontend-eight-chi-65.vercel.app"}));
 app.use(express.json());
 
 
